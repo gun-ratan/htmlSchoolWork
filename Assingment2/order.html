@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- gunratan kaur -->
+<!-- 200551703 -->
+<!-- html assingment 2 sem1-->
+<head>
+    <!-- meta data -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="the pizza assingment">
+  <meta name="robots" content="noindex, nofollow">
+  <!-- order page -->
+  <title>order now</title>
+  <!-- linnk for css -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg">
+  <!-- container div -->
+  <div class="form">
+    <section class="sec2">
+      <h1> Order Details</h1>
+    </section>
+    <form>
+      <!-- personal information -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" required> <br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required> <br>
+
+      <label for="phone">Phone:</label>
+      <input type="number" required> <br>
+      <!-- ordeer specifications -->
+      <label for="pizza-size">Select Pizza Size:</label>
+      <select id="pizza-size" name="pizza-size" required>
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+      </select>
+      <fieldset>
+        <legend>Category:</legend>
+        <input type="radio">
+        <label for="delivery">Vegan</label>
+        <input type="radio">
+        <label for="no-delivery">Non-Vegetarian</label>
+        <input type="radio">
+        <label for="no-delivery">Gluten Free</label>
+      </fieldset>
+      <fieldset>
+        <legend>Select Toppings:</legend>
+        <input type="checkbox" id="pepperoni">
+        <label for="pepperoni">Pepperoni</label>
+
+        <input type="checkbox" id="mushrooms">
+        <label for="mushrooms">Mushrooms</label>
+
+        <input type="checkbox" id="olives">
+        <label for="olives">Olives</label>
+      </fieldset>
+
+      <label for="delivery"> Home Delivery:</label>
+      <input type="radio" id="delivery" name="delivery" value="yes">
+      <label for="delivery">Yes</label>
+
+      <input type="radio" id="no-delivery" name="delivery" value="no">
+      <label for="no-delivery">No</label> <br>
+      <fieldset>
+        <!-- monet matters -->
+        <legend>Payment Type:</legend>
+        <input type="radio">
+        <label for="card">Credit/Debit</label>
+        <input type="radio">
+        <label for="Gift Card">Gift Card</label>
+        <input type="radio">
+        <label for="COD">Cash On Delivery</label>
+      </fieldset>
+    </form>
+    <div>
+      <!-- to take order -->
+      <button type="submit" class="b1">Submit Order</button>
+      <!--did a mistake filing the information -->
+      <button type="reset" class="b1">reset</button>
+    </div>
+  </div>
+</body>
+
+</html>
